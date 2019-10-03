@@ -1,0 +1,14 @@
+ 
+SELECT DISTINCT PONENV.*FROM   FAT_TCADPONENVFAMSER PONENV (NOLOCK)   
+                    LEFT JOIN FAT_TCADSERPONENV (NOLOCK) ON FAT_TCADSERPONENV.CODPONENVFAMSER = PONENV.CODPONENVFAMSER   
+               
+
+
+obispadoderafaela@wilnet.com.ar
+Esperanza
+Arzobispado Santa Fe
+Tel: 0342  - 45 95791 
+0342 - 4581780
+Hermana Concepcion
+Colonia Pilar  - Cementerio
+03404 0470190 -- Parroquia.

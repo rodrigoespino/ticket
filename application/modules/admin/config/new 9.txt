@@ -1,0 +1,35 @@
+    int número = 4557888;
+    int dígitos = 0;
+    do {
+      número /=10;
+      dígitos++;
+    } while ( número > 0 );
+    System.out.println(dígitos);
+	
+	
+	public class Iteracion4 {
+  public static void main (String [] args){
+    int suma = 0;
+    for (int i = 1; i <= 10;i++)
+        suma = suma + i;
+    System.out.println ("El total es " + suma);
+  }
+}
+
+
+import java.util.Scanner;
+
+public class Validacion
+{
+  public static void main (String []args) {
+    Scanner sc = new Scanner(System.in);
+    int numero;
+    System.out.println("Ingrese un número mayor a 0");
+    numero = sc.nextInt();
+    while (numero <= 0) {
+      System.out.println("Error. Ingrese un número mayor a 0");
+	   numero = sc.nextInt();    
+	 }
+	 System.out.println("Ingreso el número " + numero);
+  }
+}
